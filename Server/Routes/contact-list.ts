@@ -1,12 +1,12 @@
 import express from 'express';
 const router = express.Router();
 
-import { DisplayAddPage, DisplayEditPage, DisplayMovieListPage, ProcessAddPage, ProcessDeletePage, ProcessEditPage } from '../Controllers/movie-list';
+import { DisplayAddPage, DisplayEditPage, DisplayContactListPage, ProcessAddPage, ProcessDeletePage, ProcessEditPage } from '../Controllers/contact-list';
 
 import { AuthGuard } from '../Util/index';
 
-/* Display Movie List Page */
-router.get('/movie-list', AuthGuard, DisplayMovieListPage);
+/* Display contact List Page */
+router.get('/contact-list', AuthGuard, DisplayContactListPage);
 
 /* Display Add Page */
 router.get('/add', AuthGuard, DisplayAddPage);

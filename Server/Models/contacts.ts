@@ -14,7 +14,7 @@ const ContactsSchema = new Schema
 });
 
 // Step 3 - Create a Model using the Schema
-const Model = mongoose.model("Movies", ContactsSchema);
+const Model = mongoose.model("contacts", ContactsSchema);
 
 // Step 4 - Export the Model -> this makes the file a module
 export default Model;

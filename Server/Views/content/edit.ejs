@@ -1,5 +1,5 @@
 <div class="container">
-    <h1 class="col-lg-6 col-md-10 col-sm-10"><%= title %> Movie</h1>
+    <h1 class="col-lg-6 col-md-10 col-sm-10"><%= title %> Contact</h1>
     <hr>
     <div id="messageArea"></div>
 
@@ -7,7 +7,7 @@
       <form method="POST" class="col-lg-6 col-md-10 col-sm-10">
 
         <div class="input-group mb-3">
-          <span class="input-group-text">Movie Name</span>
+          <span class="input-group-text">Contact Name</span>
           <input id="Name" name="Name" type="text" class="form-control" 
           value="<%= contact.Name %>"
           aria-label="Contact Name" aria-describedby="Contact Name Input" required>
@@ -16,14 +16,14 @@
         <div class="input-group mb-3">
             <span class="input-group-text">Director Name</span>
             <input id="Number" name="Number" type="text" class="form-control" 
-            value="<%= movie.Number %>"
+            value="<%= contact.Number %>"
             aria-label="Contact Number" aria-describedby="Contact Number Input" required>
           </div>
 
         <div class="input-group mb-3">
         <span class="input-group-text">Year Released</span>
         <input id="Email" name="Email" type="text" class="form-control" 
-        value="<%= movie.Email %>"
+        value="<%= contact.Email %>"
         aria-label="Contact Email" aria-describedby="Contact Email Input" required>
         </div>
         

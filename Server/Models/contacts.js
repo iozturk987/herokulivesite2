@@ -14,4 +14,4 @@ const ContactsSchema = new Schema({
 });
 const Model = mongoose_1.default.model("Contacts", ContactsSchema);
 exports.default = Model;
-//# sourceMappingURL=movie.js.map
+//# sourceMappingURL=contact.js.map
