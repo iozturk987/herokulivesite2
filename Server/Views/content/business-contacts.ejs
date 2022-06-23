@@ -11,9 +11,8 @@
                     <tr>
                         <th scope="col" class="text-center">#</th>
                         <th scope="col">Name</th>
-                        <th scope="col">Year</th>
-                        <th scope="col">Director</th>
-                        <th scope="col">Rating</th>
+                        <th scope="col">Number</th>
+                        <th scope="col">Email</th>
                         <th></th>
                         <th></th>
                     </tr>
@@ -24,10 +23,9 @@
                         <!-- Create a new Table Row-->
                         <tr>
                             <th scope="row" class="text-center"><%= count + 1 %></th>
-                            <td><%= movies[count].Name %></td>
-                            <td><%= movies[count].Year %></td>
-                            <td><%= movies[count].Director %></td>
-                            <td><%= movies[count].Rating %></td>
+                            <td><%= contacts[count].Name %></td>
+                            <td><%= contacts[count].Number %></td>
+                            <td><%= contacts[count].Email %></td>
                             <td class="text-center"><a href="/edit/<%= movies[count]._id %>" class="btn btn-primary btn-sm edit"><i class="fa-solid fa-pen-to-square"></i> Edit</a></td>
                             <td class="text-center"><a href="/delete/<%= movies[count]._id %>" class="btn btn-danger btn-sm delete"><i class="fa-solid fa-trash-can"></i> Delete</a></td>
                         </tr>
