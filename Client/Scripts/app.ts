@@ -11,7 +11,7 @@
             if(!confirm("Are you sure?"))
             {
                 event.preventDefault();
-                location.href = "/movie-list";
+                location.href = "/contact-list";
             }
        });
     }

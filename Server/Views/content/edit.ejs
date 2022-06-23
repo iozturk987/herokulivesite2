@@ -8,30 +8,23 @@
 
         <div class="input-group mb-3">
           <span class="input-group-text">Movie Name</span>
-          <input id="movieName" name="movieName" type="text" class="form-control" 
-          value="<%= movie.Name %>"
-          aria-label="Movie Name" aria-describedby="Movie Name Input" required>
+          <input id="Name" name="Name" type="text" class="form-control" 
+          value="<%= contact.Name %>"
+          aria-label="Contact Name" aria-describedby="Contact Name Input" required>
         </div>
 
         <div class="input-group mb-3">
             <span class="input-group-text">Director Name</span>
-            <input id="movieDirector" name="movieDirector" type="text" class="form-control" 
-            value="<%= movie.Director %>"
-            aria-label="Director Name" aria-describedby="Movie Director Input" required>
+            <input id="Number" name="Number" type="text" class="form-control" 
+            value="<%= movie.Number %>"
+            aria-label="Contact Number" aria-describedby="Contact Number Input" required>
           </div>
 
         <div class="input-group mb-3">
         <span class="input-group-text">Year Released</span>
-        <input id="movieYear" name="movieYear" type="text" class="form-control" 
-        value="<%= movie.Year %>"
-        aria-label="Movie Year" aria-describedby="Movie Year Input" required>
-        </div>
-
-        <div class="input-group mb-3">
-        <span class="input-group-text">Rating</span>
-        <input id="movieRating" name="movieRating" type="text" class="form-control" 
-        value="<%= movie.Rating %>"
-        aria-label="Movie Rating" aria-describedby="Movie Rating Input" required>
+        <input id="Email" name="Email" type="text" class="form-control" 
+        value="<%= movie.Email %>"
+        aria-label="Contact Email" aria-describedby="Contact Email Input" required>
         </div>
         
         <% if(title == "Edit") { %>
@@ -40,7 +33,7 @@
         <button id="addButton" type="submit" class="btn btn-primary"><i class="fas fa-plus-circle fa-lg"></i> Add</button>
         <% } %>  
 
-        <a href="/movie-list" id="cancelButton" type="button" class="btn btn-warning"><i class="fas fa-undo fa-lg"></i> Cancel</a>
+        <a href="/contact-list" id="cancelButton" type="button" class="btn btn-warning"><i class="fas fa-undo fa-lg"></i> Cancel</a>
       
       </form>
 

@@ -5,7 +5,7 @@
         $("a.delete").on("click", function (event) {
             if (!confirm("Are you sure?")) {
                 event.preventDefault();
-                location.href = "/movie-list";
+                location.href = "/contact-list";
             }
         });
     }
